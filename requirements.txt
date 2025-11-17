@@ -1,0 +1,10 @@
+pandas
+plotly
+numpy==1.26.4
+matplotlib
+ipywidgets==8.1.2
+scipy
+umap
+umap-learn
+tqdm
+scikit-learn
