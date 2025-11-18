@@ -39,9 +39,9 @@ pip install ipython==8.15.0 traitlets==5.7.1
 
 #### Under your working directory<br>
 git clone https://github.com/sujathakotte/BOVIZ.git<br>
-cd BOVIZ/
-unzip meta.zip
-unzip data_npz.zip
+cd BOVIZ/<br>
+unzip meta.zip<br>
+unzip data_npz.zip<br>
 
 #### Intsall required packages<br>
 pip install -r requirements.txt
