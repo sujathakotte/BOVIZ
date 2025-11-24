@@ -26,7 +26,10 @@ We have developed a computationally efficient and scalable method, BOVIZ (Bag-Of
 
 ## Installation
 
-We tested our code with `Python=3.10.12
+We tested our code with Python=3.10.12
+#### Install git lfs - for large files download<br>
+sudo apt update<br>
+sudo apt install git-lfs<br>
 
 #### jupyter environment setup<br>
 python3 -m venv ~/jupyter_env<br>
@@ -39,9 +42,9 @@ pip install ipython==8.15.0 traitlets==5.7.1
 
 #### Under your working directory<br>
 git clone https://github.com/sujathakotte/BOVIZ.git<br>
-cd BOVIZ/<br>
+cd BOVIZ/
 
-#### Install required packages<br>
+#### Intsall required packages<br>
 pip install -r requirements.txt
 
 ## RUN
@@ -52,13 +55,15 @@ Visualization of Bag-Of-Variants embedding of samples. Execute the following,
 
 #### jupyter lab plot_BOV.ipynb
 
-After running all the cells, three dropdown widgets will appear, namely Country, Region of interest and sample size.<br>
-1. Country: multiple selection can be performed by shift+click.<br>
-2. region of interest : option to choose function genomic region or the whole genomic region.<br>
-3. sample size : By selecting sample size, user can set a maximum cap on the samples. e.g. if sample size is 100, 
-only 100 samples will be picked from each country selected. 
+After running all the cells, the following dropdown widgets will appear.<br>
+1. Country: multiple selection can be performed by shift+click / ctrl+click.<br>
+2. Select Lineage -  Select Lineage.<br>
+3. Datapoints on canvas - User can set a maximum cap on the samples. e.g. if sample size is 1000, only 1000 samples will be picked from each country selected.<br>
+4. Timestamp - Time duration.<br>
+5. Type of plot : option to choose different visualization algorithm on embedding vectors.<br>
+6. Genomic region of interest : option to choose specific genomic region or the whole genomic region.<br>
 
-After selecting all the options, simply click on run option. Once the process gets completed, user can choose different metadata fields and analyse the visualization.
+After selecting all the options, click on run option. Once the process gets completed, user can choose different metadata fields and analyze the visualization.
 
 
 ### plot VE
@@ -67,11 +72,14 @@ Visualization of Variant feature Embedding of all the samples. Execute the follo
 
 #### jupyter lab plot_VE.ipynb
 
-After running all the cells, three dropdown widgets will appear, namely Country, type of plot and sample size.<br>
-1. Country: multiple selection can be performed by shift+click.<br>
-2. type of plot : option to choose different visualization algorithm on embedding vectors. 
-3. sample size : By selecting sample size, user can set a maximum cap on the samples. e.g. if sample size is 100, 
-only 100 samples will be picked from each country selected. 
+After running all the cells, the following dropdown widgets will appear.<br>
+1. Country: multiple selection can be performed by shift+click / ctrl+click.<br>
+2. Select Lineage -  Select Lineage.<br>
+3. Datapoints on canvas - User can set a maximum cap on the samples. e.g. if sample size is 1000, only 1000 samples will be picked from each country selected.<br>
+4. Timestamp - Time duration.<br>
+5. Type of plot : option to choose different visualization algorithm on embedding vectors.<br>
+6. Genomic region of interest : option to choose specific genomic region or the whole genomic region.<br>
 
-After selecting all the options, simply click on run option. Once the process gets completed, user can choose different metadata fields and analyse the visualization.
+After selecting all the options, click on run option. Once the process gets completed, user can choose different metadata fields and analyze the visualization.
+
 
