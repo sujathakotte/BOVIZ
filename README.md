@@ -26,19 +26,20 @@ We have developed a computationally efficient and scalable method, BOVIZ (Bag-Of
 
 ## Installation
 
-We tested our code with Python=3.10.12
+We tested our code with Python=3.10.19
 #### Install git lfs - for large files download<br>
 sudo apt update<br>
 sudo apt install git-lfs<br>
 
 #### jupyter environment setup<br>
-python3 -m venv ~/BOVIZ_env<br>
+python3.10 -m venv ~/BOVIZ_env<br>
 source ~/BOVIZ_env/bin/activate
  
 #### Install JupyterLab, Notebook 6, widgets, and kernel<br>
 pip install --upgrade pip setuptools wheel<br>
 pip install notebook==6.5.4 jupyterlab ipywidgets jupyterlab_widgets ipykernel<br>
 pip install ipython==8.15.0 traitlets==5.7.1
+pip install --upgrade kaleido
 
 #### Under your working directory<br>
 git clone https://github.com/sujathakotte/BOVIZ.git<br>

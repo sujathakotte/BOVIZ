@@ -126,7 +126,7 @@ def plotRadviz2D(df,df_circle):
 	#fig.show()
 	py.iplot(fig)
 	py.plot(fig, filename='check.html')
-	pio.write_image(fig,"img.png", format=png, scale=1, width=1000, height=800)
+	pio.write_image(fig,"img.png", format="png", scale=1, width=1000, height=800)
 
 def RadViz2D(y,X,BPs):
     y.rename("index",inplace=True) 
