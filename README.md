@@ -38,7 +38,7 @@ source ~/BOVIZ_env/bin/activate
 #### Install JupyterLab, Notebook 6, widgets, and kernel<br>
 pip install --upgrade pip setuptools wheel<br>
 pip install notebook==6.5.4 jupyterlab ipywidgets jupyterlab_widgets ipykernel<br>
-pip install ipython==8.15.0 traitlets==5.7.1
+pip install ipython==8.15.0 traitlets==5.7.1<br>
 pip install --upgrade kaleido
 
 #### Under your working directory<br>
